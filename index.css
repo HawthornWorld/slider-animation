@@ -1,0 +1,14 @@
+.trans_box {width:300px;overflow:hidden;}
+.trans_image_box {
+    width:20000px;
+    height:200px;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+.trans_image_box .trans_image {float:left;width:200px;}
+.trans_image_trigger {
+    padding-top: 10px;
+    text-align: center;
+}
